@@ -6,7 +6,7 @@ type MushroomInfoProps = {
 }
 export const MushroomInfo = ({ mushroom, setMush }: MushroomInfoProps) => {
     return <div className="w-8/10 flex-shrink-0 p-3 bg-blue-300 m-2 shadow-xl absolute top-1/10 left-1/10 ">
-        <h1 className="text-3xl font-bold">{mushroom.name}</h1>
+        <h1 className="text-3xl  font-bold">{mushroom.name}</h1>
         <h3 className="text-lg font-bold">{mushroom.desc}</h3>
         <div className="h-8 flex">{[1, 2, 3, 4, 5].map((val) => {
             if (val <= mushroom.rating)
