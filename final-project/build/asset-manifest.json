@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.394645f8.css",
+    "main.js": "/static/js/main.2f0be2e4.js",
+    "static/media/prochnilec.png": "/static/media/prochnilec.18a74d5904ff0713542f.png",
+    "static/media/dzbankowka.png": "/static/media/dzbankowka.a6dc019df6f6ef65536a.png",
+    "static/media/okratek.png": "/static/media/okratek.aea0559d28fb5a10cb1e.png",
+    "static/media/pieczarka.png": "/static/media/pieczarka.2aa87f68d80855b2111e.png",
+    "static/media/lejkowiec.png": "/static/media/lejkowiec.947478cf7719a026c063.png",
+    "static/media/kurka.png": "/static/media/kurka.15c8e8acec69f2764640.png",
+    "static/media/soplowka.png": "/static/media/soplowka.3a45c17f6aa7805691fb.png",
+    "static/media/kolczakowka.png": "/static/media/kolczakowka.efa2a901bc85810959bb.png",
+    "static/media/buty.png": "/static/media/buty.a04e302f818a83017cff.png",
+    "static/media/borowik.png": "/static/media/borowik.b007fea78da4c5b8b1f2.png",
+    "static/media/alko.png": "/static/media/alko.2f3516d70b00dbcad946.png",
+    "static/media/berserk.png": "/static/media/berserk.ee1f9cc69057d4d92db7.png",
+    "static/media/connect.png": "/static/media/connect.09e2dca2fd15f94d7a23.png",
+    "static/media/www.png": "/static/media/www.d8cfc9f5b8f72deafca1.png",
+    "static/media/muchomor.png": "/static/media/muchomor.18d0f9089a3bad1d3ccb.png",
+    "static/media/massospora.png": "/static/media/massospora.a0caed6d3a25a7328321.png",
+    "static/media/mars.png": "/static/media/mars.48c0f307a6770f9154e2.png",
+    "static/media/speed.png": "/static/media/speed.228740db227cd49331e3.png",
+    "static/media/swiatlo.png": "/static/media/swiatlo.cbcc239b037bf2df41b6.png",
+    "static/media/bursztyn.png": "/static/media/bursztyn.925bfd5168c90fdf92a2.png",
+    "static/media/asfalt.png": "/static/media/asfalt.1428be4191220c1a14ff.png",
+    "static/media/palce.png": "/static/media/palce.5652b5c59680823703bf.png",
+    "index.html": "/index.html",
+    "main.394645f8.css.map": "/static/css/main.394645f8.css.map",
+    "main.2f0be2e4.js.map": "/static/js/main.2f0be2e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.394645f8.css",
+    "static/js/main.2f0be2e4.js"
+  ]
+}

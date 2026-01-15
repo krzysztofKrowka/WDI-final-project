@@ -9,13 +9,15 @@ enum Tabs {
 function App() {
   const [tab, setTab] = useState<Tabs>()
 
-  return <div>
-    <div className='h-20  w-full bg-green-300 text-4xl p-4 font-bold text-center'>Grzybomania</div>
-    {tab == Tabs.Atlas && <Atlas />}
-    {tab == Tabs.Funfact && <Funfacts />}
+  return <div className='h-screen flex flex-col'>
+    <div className='h-20 w-full bg-green-300 text-4xl p-4 font-bold text-center '>Grzybomania</div>
+    <div className='flex-1'>
+      {tab == Tabs.Atlas && <Atlas />}
+      {tab == Tabs.Funfact && <Funfacts />}
+    </div>
     <div className='absolute bottom-0 w-full h-20 bg-green-300 flex text-center font-bold text-3xl '>
       <div className='bg-blue-300 flex-1 p-5' onClick={() => setTab(Tabs.Atlas)}>Atlas</div>
-      <div className='bg-red-300 flex-1 p-5 ' onClick={() => setTab(Tabs.Funfact)}>Funfact</div>
+      <div className='bg-red-300 flex-1 p-5 ' onClick={() => setTab(Tabs.Funfact)}>Ciekawostka</div>
     </div>
   </div>
 }
