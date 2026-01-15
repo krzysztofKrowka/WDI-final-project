@@ -1,4 +1,4 @@
-package wdi.project;
+package grzybomania.fin;
 
 import com.getcapacitor.BridgeActivity;
 

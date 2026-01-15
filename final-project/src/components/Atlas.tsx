@@ -10,7 +10,7 @@ export const Atlas = () => {
             {Mushrooms.map((mushroom, i) => (
                 <div key={i} className="w-3/4 flex-shrink-0 p-3 bg-blue-300 m-2 shadow-xl" onClick={() => setMush(mushroom)}>
                     <h1 className="text-3xl font-bold">{mushroom.name}</h1>
-                    <img className="w-250 h-100" src={mushroom.photo} />
+                    <img className="w-250 h-75" src={mushroom.photo} />
                 </div>
             ))}
         </div>

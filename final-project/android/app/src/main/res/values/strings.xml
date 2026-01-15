@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">wdi-final-project</string>
-    <string name="title_activity_main">wdi-final-project</string>
-    <string name="package_name">wdi.final.project</string>
-    <string name="custom_url_scheme">wdi.final.project</string>
+    <string name="app_name">Grzybomania</string>
+    <string name="title_activity_main">Grzybomania</string>
+    <string name="package_name">grzybomania.fin</string>
+    <string name="custom_url_scheme">grzybomania.fin</string>
 </resources>

@@ -9,7 +9,7 @@ enum Tabs {
 function App() {
   const [tab, setTab] = useState<Tabs>()
 
-  return <div className='h-screen flex flex-col'>
+  return <div className='h-screen flex flex-col bg-green-200'>
     <div className='h-20 w-full bg-green-300 text-4xl p-4 font-bold text-center '>Grzybomania</div>
     <div className='flex-1'>
       {tab == Tabs.Atlas && <Atlas />}

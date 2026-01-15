@@ -11,12 +11,12 @@ export const Funfacts = () => {
         var d = daysIntoYear(now)
         setFunfact(FunfactsData[d % FunfactsData.length])
     }, [])
-    return < div className="h-full bg-red-200 p-5 pt-20" >
-        <h1 className="text-3xl font-bold mb-10 ">Ciekawostka na dziś</h1>
-        <div className="bg-red-300 w-full h-auto p-5 shadow-xl overflow-hidden">
+    return < div className="h-full bg-red-200 p-5" >
+        <h1 className="text-3xl font-bold mb-2 ">Ciekawostka na dziś</h1>
+        <div className="bg-red-300 w-full h-auto p-2 shadow-xl overflow-hidden">
             <img className="bg-white w-60 h-60 float-right" src={Funfact?.photo} alt={Funfact?.photo} />
             <p className="text-2xl font-bold">{Funfact?.title}</p>
-            <p className="text-xl mt-5 font-medium">{Funfact?.body}</p>
+            <p className="text-xl mt-2 font-medium">{Funfact?.body}</p>
 
         </div>
     </div >
